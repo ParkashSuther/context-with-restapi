@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `https://api.ecom14.com/products?url=zuyuf.pk`;
+    const apiUrl = `------your rest api ------------`;
     fetch(apiUrl)
       .then((res) => res.json())
       .then((repos) => {
